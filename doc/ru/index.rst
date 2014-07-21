@@ -94,6 +94,7 @@ Events
 В случае необходимости, Вы можете создать свой собственный event, чтобы передать необходимые параметры.
 
 .. code-block:: php
+
     <?php
 
     use Ideea\AsyncEventDispatcher\Event;
