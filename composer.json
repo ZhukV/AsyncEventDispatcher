@@ -1,0 +1,22 @@
+{
+    "name": "async-event/dispatcher",
+    "description": "Send events to AsyncEvent system",
+    "keywords": ["event", "async", "dispatcher"],
+    "homepage": "https://github.com/ZhukV/AsyncEventDispatcher",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitaliy Zhuk",
+            "email": "zhuk2205@gmail.com"
+        }
+    ],
+
+    "require": {
+        "php": ">=5.3.3"
+    },
+
+    "autoload": {
+        "psr-0": { "Ideea\\AsyncEventDispatcher": "src/" }
+    }
+}
