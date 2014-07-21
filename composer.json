@@ -1,7 +1,7 @@
 {
-    "name": "async-event/dispatcher",
-    "description": "Send events to AsyncEvent system",
-    "keywords": ["event", "async", "dispatcher"],
+    "name": "ideea/async-event-dispatcher",
+    "description": "Async send/receive events",
+    "keywords": ["event", "async", "dispatcher", "receiver"],
     "homepage": "https://github.com/ZhukV/AsyncEventDispatcher",
     "type": "library",
     "license": "MIT",
