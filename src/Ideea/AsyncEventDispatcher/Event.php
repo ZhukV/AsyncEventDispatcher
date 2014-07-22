@@ -49,6 +49,10 @@ class Event implements EventInterface
         $data = array();
 
         foreach (get_object_vars($this) as $key => $value) {
+            if ($key == 'acknowledge') {
+                continue;
+            }
+
             $data[$key] = $value;
         }
 
